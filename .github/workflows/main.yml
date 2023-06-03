@@ -40,7 +40,7 @@ jobs:
         if: ${{ success() }}
 
       - name: Test repository
-        id: usabilityhub check
+        id: usabilityhubcheck
         run: ./gradlew checkUsabilityHub 
         if: ${{ success() }}
 
@@ -59,4 +59,4 @@ jobs:
 
       - name: Multi-platform build and push
         run: ./gradlew buildAndPushImages
-        if: ${{ (github.ref == 'refs/heads/main') && (github.event_name != 'pull_request') && !env.ACT && (steps.repocheck.outcome == 'success')}}
+        if: ${{ (github.ref == 'refs/heads/main') && (github.event_name != 'pull_request') && !env.ACT && (steps.usabilityhubcheck.outcome == 'success')}}
