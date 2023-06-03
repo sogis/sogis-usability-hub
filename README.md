@@ -1,4 +1,4 @@
-# sogis-ilihub-repository
+# sogis-usability-hub
 Official SO!GIS UsabILIty Hub.
 
 see [docs/betriebs-_und_nachfuehrungshandbuch.md](docs/betriebs-_und_nachfuehrungshandbuch.md)
