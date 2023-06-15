@@ -8,7 +8,7 @@
    <DATASECTION>
       <DatasetIdx16.DataIndex BID="bea4dfa5-c298-44c3-a4d0-390eafb16c6a">
          <DatasetIdx16.DataIndex.DatasetMetadata TID="5B01135D-B568-45C4-B433-9412D2A60E8A">
-            <id>layerstyle_agi_validation_demo_hauptstadt_qml_001</id>
+            <id>xxx_layerstyle_agi_validation_demo_hauptstadt_qml_001</id>
             <version>2022-12-02</version>
             <publishingDate>2022-12-02</publishingDate>
             <owner>mailto:agi@bd.so.ch</owner>
@@ -38,7 +38,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="037F5302-4AF8-4602-A172-5891F246E87B">
-            <id>layerstyle_agi_validation_demo_stadt_qml_001</id>
+            <id>xxx_layerstyle_agi_validation_demo_stadt_qml_001</id>
             <version>2022-12-02</version>
             <publishingDate>2022-12-02</publishingDate>
             <owner>mailto:agi@bd.so.ch</owner>
@@ -68,7 +68,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="E36243F9-3F95-4190-90F3-68F7B001D006">
-            <id>layerstyle_agi_validation_demo_provinz_bundesland_kanton_qml_001</id>
+            <id>xxx_layerstyle_agi_validation_demo_provinz_bundesland_kanton_qml_001</id>
             <version>2022-12-02</version>
             <publishingDate>2022-12-02</publishingDate>
             <owner>mailto:agi@bd.so.ch</owner>
@@ -98,7 +98,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="CF9892AE-88EA-4D35-BACA-7D8BA351950F">
-            <id>projecttopping_agi_validation_demo_yaml_001</id>
+            <id>xxx_projecttopping_agi_validation_demo_yaml_001</id>
             <version>2022-12-02</version>
             <publishingDate>2022-12-02</publishingDate>
             <owner>mailto:agi@bd.so.ch</owner>
@@ -128,7 +128,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="1600D93D-191C-4051-8E17-0DCD84729038">
-            <id>metaconfig_agi_validation_demo_ini_001</id>
+            <id>xxx_metaconfig_agi_validation_demo_ini_001</id>
             <version>2022-12-02</version>
             <publishingDate>2022-12-02</publishingDate>
             <owner>mailto:agi@bd.so.ch</owner>
