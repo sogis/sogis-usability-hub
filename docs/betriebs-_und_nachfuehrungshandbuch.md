@@ -22,7 +22,14 @@ Der Aufbau der Ablage wie folgt aus:
 
 Der Model Baker Export muss in das Verzeichnis _ilihub_ kopiert werden. Der Verzeichnisname muss mit dem Amtskürzel beginnen. Dies wird von _ilivalidator_ geprüft. Ggf. muss der Constraint im [Quellcode](https://github.com/sogis/interlis-repository-creator/blob/master/src/main/resources/DatasetIdx16.ili) angepasst werden und das Plugin neu gebuildet werden.
 
+Exportstruktur:
+
+![Exportstruktur](./model_baker_struktur.png)
+
+
 Falls man ein Model Baker Export nicht erstellen lässt, sondern z.B. den Ordner einfach kopiert, muss dafür gesorgt werden, dass die TID eindeutig ist (über sämtliche _ilidata.xml_-Dateien). Gleiches gilt für die `id` der einzelnen Objekte. 
+
+Eventuell lohnt es sich auch das _.ilicache_-, _..ilimetaconfigcache_- und _.ilitoppingfilescache_-Verzeichnis in seinem Home-Directory zu löschen, wenn man neue Konfigurationen eingecheckt und deployed hat. Insbesondere wenn - gemäss Logfile - die Metakonfiguration nicht gefunden werden.
 
 #### ilidata.xml
 Die _ilidata.xml_-Datei wird von einem Gradle-Plugin, aus sämtlichen vorhandenen _ilidata.xml_-Dateien in den Unterverzeichnissen, erzeugt.
