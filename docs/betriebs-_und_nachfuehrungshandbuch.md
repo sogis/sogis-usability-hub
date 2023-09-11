@@ -48,8 +48,8 @@ Lokal kann man mit folgendem Befehl das Repository testen und erweitern (Docker 
 ./gradlew createIliDataXml buildImage startContainer checkUsabilityHub
 ```
 
-> Der Task `startContainer` startet einen lokalen Server auf dem Port 8080, somit ist der lokale UsabilityHub unter [http://localhost:8080/](http://localhost:8080/) erreichbar.
-> Der Task `checkUsabilityHub` ist sehr einfach. Er überprüft den Statuscode und ob ein Objekt-Tag vorhanden ist.
+* Der Task `startContainer` startet einen lokalen Server auf dem Port 8080, somit ist der lokale UsabilityHub unter [http://localhost:8080/](http://localhost:8080/) erreichbar.
+* Der Task `checkUsabilityHub` ist sehr einfach. Er überprüft den Statuscode und ob ein Objekt-Tag vorhanden ist.
 
 Mit
 
