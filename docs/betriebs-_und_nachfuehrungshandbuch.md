@@ -41,11 +41,20 @@ Im _ilisite.xml_-File sind sämtliche Metadaten zur vorliegenden Datenablage auf
 Das File _ilimodels.xml_ ist statisch und inhaltlich leer. Es ist vorhanden, damit keine Fehler/Warnungen in einem Serverlogfile erscheinen, weil die _ilitools_ davon ausgehen, dass es vorhanden ist.
 
 
-## Testen
-Lokal kann man mit folgendem Befehl das Repository testen (Docker muss installiert sein):
+## Testen und lokale Entwicklung
+Lokal kann man mit folgendem Befehl das Repository testen und erweitern (Docker muss installiert sein):
 
 ```
-./gradlew ./gradlew createIliDataXml buildImage startContainer checkUsabilityHub
+./gradlew createIliDataXml buildImage startContainer checkUsabilityHub
 ```
 
-Der Task `checkUsabilityHub` ist sehr einfach. Er überprüft den Statuscode und ob ein Objekt-Tag vorhanden ist.
+> Der Task `startContainer` startet einen lokalen Server auf dem Port 8080, somit ist der lokale UsabilityHub unter [http://localhost:8080/](http://localhost:8080/) erreichbar.
+> Der Task `checkUsabilityHub` ist sehr einfach. Er überprüft den Statuscode und ob ein Objekt-Tag vorhanden ist.
+
+Mit
+
+```
+./gradlew stopContainer
+```
+
+wird der Container wieder runtergefahren.
