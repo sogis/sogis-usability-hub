@@ -32,7 +32,7 @@ jobs:
       - name: Build with Gradle
         id: build
         run: |
-          ./gradlew createIliDataXml   
+          ./gradlew createIliDataXml   -i -s
           ls -la
 
       - name: Build and start Docker container
