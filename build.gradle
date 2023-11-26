@@ -6,7 +6,7 @@ buildscript {
 }
 
 plugins {
-    id "ch.so.agi.interlis-repository-creator" version "1.3.26"
+    id "ch.so.agi.interlis-repository-creator" version "1.4.27"
 }
 
 apply from: "$rootDir/gradle/versioning.gradle"
@@ -15,7 +15,7 @@ description = """SO!GIS UsabILIty Hub"""
 
 def GROUP = "UsabILIty Hub creation"
 
-import ch.so.agi.tasks.IlihubRepositoryCreator
+import ch.so.agi.tasks.UsabILItyHubCreator
 import java.text.SimpleDateFormat
 
 tasks.register('versionTxt') {
@@ -32,27 +32,13 @@ Application-name: sogis-usabilityhub
     }
 }
 
-tasks.register('createIliDataXml', IlihubRepositoryCreator) {
+tasks.register('createIliDataXml', UsabILItyHubCreator) {
     group = GROUP
     description = "Create ilidata.xml file."
-    reposDir = file("ilihub/")
+    reposDir = file("usabilityhub/")
     dataFile = "ilidata.xml"
 }
 createIliDataXml.configure { finalizedBy versionTxt }
-
-/*
-tasks.register('addXslDeclaration') {
-    group = GROUP
-    description = "Add XSL declaration to ilimodels.xml"
-    doLast {
-        def file = new File("ilimodels.xml")
-        def content = file.text
-        content = content.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-        content = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + "<?xml-stylesheet type=\"text/xsl\" href=\"ilimodels.xsl\"?>\n" + content
-        file.write content
-    }
-}    
-*/
 
 def DOCKER_ACCOUNT = "sogis"
 def DOCKER_REPO = "usabilityhub"

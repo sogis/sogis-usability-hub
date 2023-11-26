@@ -10,7 +10,7 @@ RUN touch /var/run/nginx.pid && \
 
 RUN mkdir -p /opt/repository/
 
-COPY ilihub/ /opt/repository/
+COPY usabilityhub/ /opt/repository/
 RUN chmod -R +rx /opt/repository
 RUN find /opt/repository -name "ilidata.xml" -type f|xargs rm -f
 
