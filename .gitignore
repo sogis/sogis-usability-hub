@@ -1,7 +1,7 @@
 ilidata.xml
 version.txt
 ilivalidator.log
-!ilihub/**/*.xml
+!usabilityhub/**/*.xml
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
