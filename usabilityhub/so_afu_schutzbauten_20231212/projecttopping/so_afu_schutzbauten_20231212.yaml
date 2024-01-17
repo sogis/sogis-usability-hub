@@ -2,343 +2,302 @@ layertree:
 - Hauptprozess Wasser:
     checked: true
     child-nodes:
-    - Furt:
+    - Wasser_Furt:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_furt_qml_001
-        tablename: schutzbautn_wsser_furt
-    - Bruecke_Steg:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_furt_qml_001
+        tablename: wasser_furt
+    - Wasser_Bruecke_Steg:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_bruecke_steg_qml_001
-        tablename: schutzbautn_wsser_bruecke_steg
-    - andere_Werksart_Wasser_Punkt:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_bruecke_steg_qml_001
+        tablename: wasser_bruecke_steg
+    - Wasser_andere_Werksart_Punkt:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_wasser_punkt_qml_001
-        tablename: schutzbautn_wsser_andere_werksart_wasser_punkt
-    - Murbrecher_Murbremse:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_andere_werksart_punkt_qml_001
+        tablename: wasser_andere_werksart_punkt
+    - Wasser_Uferdeckwerk_Ufermauer_Lebendverbau:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_murbrecher_murbremse_qml_001
-        tablename: schutzbautn_wsser_murbrecher_murbremse
-    - Eindolung:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_uferdeckwerk_ufermauer_lebendverbau_qml_001
+        tablename: wasser_uferdeckwerk_ufermauer_lebendverbau
+    - Wasser_Sperre_Schwelle:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_eindolung_qml_001
-        tablename: schutzbautn_wsser_eindolung
-    - Entlastungsstollen_kanal:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_sperre_schwelle_qml_001
+        tablename: wasser_sperre_schwelle
+    - Wasser_Rueckhaltebauwerk:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_entlastungsstollen_kanal_qml_001
-        tablename: schutzbautn_wsser_entlastungsstollen_kanal
-    - Entlastungsbauwerk:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_rueckhaltebauwerk_qml_001
+        tablename: wasser_rueckhaltebauwerk
+    - Wasser_Murbrecher_Murbremse:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_entlastungsbauwerk_qml_001
-        tablename: schutzbautn_wsser_entlastungsbauwerk
-    - Rueckhaltebauwerk:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_murbrecher_murbremse_qml_001
+        tablename: wasser_murbrecher_murbremse
+    - Wasser_Mauer:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rueckhaltebauwerk_qml_001
-        tablename: schutzbautn_wsser_rueckhaltebauwerk
-    - Uferdeckwerk_Ufermauer_Lebendverbau:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_mauer_qml_001
+        tablename: wasser_mauer
+    - Wasser_Entlastungsstollen_kanal:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_uferdeckwerk_ufermauer_lebendverbau_qml_001
-        tablename: schutzbautn_wsser_uferdeckwerk_ufermauer_lebendverbau
-    - Buhne:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_entlastungsstollen_kanal_qml_001
+        tablename: wasser_entlastungsstollen_kanal
+    - Wasser_Entlastungsbauwerk:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_buhne_qml_001
-        tablename: schutzbautn_wsser_buhne
-    - Sperre_Schwelle:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_entlastungsbauwerk_qml_001
+        tablename: wasser_entlastungsbauwerk
+    - Wasser_Eindolung:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sperre_schwelle_qml_001
-        tablename: schutzbautn_wsser_sperre_schwelle
-    - Schutzbauten_Wasser.Damm:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_eindolung_qml_001
+        tablename: wasser_eindolung
+    - Wasser_Damm:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbauten_wasser_damm_qml_001
-        tablename: schutzbautn_wsser_damm
-    - Mauer:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_damm_qml_001
+        tablename: wasser_damm
+    - Wasser_Buhne:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_mauer_qml_001
-        tablename: schutzbautn_wsser_mauer
-    - andere_Werksart_Wasser_Linie:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_buhne_qml_001
+        tablename: wasser_buhne
+    - Wasser_andere_Werksart_Linie:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_wasser_linie_qml_001
-        tablename: schutzbautn_wsser_andere_werksart_wasser_linie
-    - Geschiebeablagerungsplatz:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_andere_werksart_linie_qml_001
+        tablename: wasser_andere_werksart_linie
+    - Wasser_Rampe_Sohlensicherung:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_geschiebeablagerungsplatz_qml_001
-        tablename: schutzbautn_wsser_geschiebeablagerungsplatz
-    - Rampe_Sohlensicherung:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_rampe_sohlensicherung_qml_001
+        tablename: wasser_rampe_sohlensicherung
+    - Wasser_Geschiebeablagerungsplatz:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rampe_sohlensicherung_qml_001
-        tablename: schutzbautn_wsser_rampe_sohlensicherung
-    - andere_Werksart_Wasser_Flaeche:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_geschiebeablagerungsplatz_qml_001
+        tablename: wasser_geschiebeablagerungsplatz
+    - Wasser_andere_Werksart_Flaeche:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_wasser_flaeche_qml_001
-        tablename: schutzbautn_wsser_andere_werksart_wasser_flaeche
-    expanded: true
-    group: true
-- Hauptprozess Rutschung:
-    checked: true
-    child-nodes:
-    - andere_Werksart_Rutschung_Punkt:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_rutschung_punkt_qml_001
-        tablename: schtzbtn_rtschung_andere_werksart_rutschung_punkt
-    - Auffangnetz:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_auffangnetz_qml_001
-        tablename: schtzbtn_rtschung_auffangnetz
-    - Hangstuetzwerk_Entwaesserung_Palisade:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_hangstuetzwerk_entwaesserung_palisade_qml_001
-        tablename: schtzbtn_rtschung_hangstuetzwerk_entwaesserung_palisade
-    - andere_Werksart_Rutschung_Linie:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_rutschung_linie_qml_001
-        tablename: schtzbtn_rtschung_andere_werksart_rutschung_linie
-    - Schutzbauten_Rutschung.Damm:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbauten_rutschung_damm_qml_001
-        tablename: schtzbtn_rtschung_damm
-    - Abdeckung_IngMassnahme:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_abdeckung_ingmassnahme_qml_001
-        tablename: schtzbtn_rtschung_abdeckung_ingmassnahme
-    - andere_Werksart_Rutschung_Flaeche:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_rutschung_flaeche_qml_001
-        tablename: schtzbtn_rtschung_andere_werksart_rutschung_flaeche
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_andere_werksart_flaeche_qml_001
+        tablename: wasser_andere_werksart_flaeche
     expanded: true
     group: true
 - Hauptprozess Sturz:
     checked: true
     child-nodes:
-    - Unterfangung:
+    - Sturz_Unterfangung:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_unterfangung_qml_001
-        tablename: schutzbautn_sturz_unterfangung
-    - andere_Werksart_Sturz_Punkt:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_unterfangung_qml_001
+        tablename: sturz_unterfangung
+    - Sturz_andere_Werksart_Punkt:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_sturz_punkt_qml_001
-        tablename: schutzbautn_sturz_andere_werksart_sturz_punkt
-    - Schutznetz_Palisade_Damm_Schutzzaun_Mauer:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_andere_werksart_punkt_qml_001
+        tablename: sturz_andere_werksart_punkt
+    - Sturz_Schutznetz_Palisade_Damm_Schutzzaun_Mauer:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutznetz_palisade_damm_schutzzaun_mauer_qml_001
-        tablename: schutzbautn_sturz_schutznetz_palisade_damm_schutzzaun_mauer
-    - andere_Werksart_Sturz_Linie:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_schutznetz_palisade_damm_schutzzaun_mauer_qml_001
+        tablename: sturz_schutznetz_palisade_damm_schutzzaun_mauer
+    - Sturz_andere_Werksart_Linie:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_sturz_linie_qml_001
-        tablename: schutzbautn_sturz_andere_werksart_sturz_linie
-    - Abdeckung_Verankerung:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_andere_werksart_linie_qml_001
+        tablename: sturz_andere_werksart_linie
+    - Sturz_Galerie:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_abdeckung_verankerung_qml_001
-        tablename: schutzbautn_sturz_abdeckung_verankerung
-    - Galerie:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_galerie_qml_001
+        tablename: sturz_galerie
+    - Sturz_Abdeckung_Verankerung:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_galerie_qml_001
-        tablename: schutzbautn_sturz_galerie
-    - andere_Werksart_Sturz_Flaeche:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_abdeckung_verankerung_qml_001
+        tablename: sturz_abdeckung_verankerung
+    - Sturz_andere_Werksart_Flaeche:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_andere_werksart_sturz_flaeche_qml_001
-        tablename: schutzbautn_sturz_andere_werksart_sturz_flaeche
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_andere_werksart_flaeche_qml_001
+        tablename: sturz_andere_werksart_flaeche
+    expanded: true
+    group: true
+- Hauptprozess Rutschung:
+    checked: true
+    child-nodes:
+    - Rutschung_andere_Werksart_Punkt:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_andere_werksart_punkt_qml_001
+        tablename: rutschung_andere_werksart_punkt
+    - Rutschung_Hangstuetzwerk_Entwaesserung_Palisade:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_hangstuetzwerk_entwaesserung_palisade_qml_001
+        tablename: rutschung_hangstuetzwerk_entwaesserung_palisade
+    - Rutschung_Auffangnetz:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_auffangnetz_qml_001
+        tablename: rutschung_auffangnetz
+    - Rutschung_andere_Werksart_Linie:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_andere_werksart_linie_qml_001
+        tablename: rutschung_andere_werksart_linie
+    - Rutschung_Damm:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_damm_qml_001
+        tablename: rutschung_damm
+    - Rutschung_Abdeckung_IngMassnahme:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_abdeckung_ingmassnahme_qml_001
+        tablename: rutschung_abdeckung_ingmassnahme
+    - Rutschung_andere_Werksart_Flaeche:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_andere_werksart_flaeche_qml_001
+        tablename: rutschung_andere_werksart_flaeche
     expanded: true
     group: true
 - tables:
     checked: true
     child-nodes:
-    - Schutzbauten_Wasser_Dokument:
+    - Schutzbaute_Dokument:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbauten_wasser_dokument_qml_001
-        tablename: schutzbautn_wsser_schutzbauten_wasser_dokument
-    - Dokument_Wasser:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbaute_dokument_qml_001
+        tablename: schutzbaute_dokument
+    - Dokument:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_dokument_wasser_qml_001
-        tablename: schutzbautn_wsser_dokument_wasser
-    - Schutzbauten_Sturz_Dokument:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbauten_sturz_dokument_qml_001
-        tablename: schutzbautn_sturz_schutzbauten_sturz_dokument
-    - Dokument_Sturz:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_dokument_sturz_qml_001
-        tablename: schutzbautn_sturz_dokument_sturz
-    - Schutzbauten_Rutschung_Dokument:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutzbauten_rutschung_dokument_qml_001
-        tablename: schtzbtn_rtschung_schutzbauten_rutschung_dokument
-    - Dokument_Rutschung:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_dokument_rutschung_qml_001
-        tablename: schtzbtn_rtschung_dokument_rutschung
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_dokument_qml_001
+        tablename: dokument
     expanded: true
     group: true
 - domains:
     checked: true
     child-nodes:
-    - Abdeckung_IngMassnahme_Art:
+    - Wasser_Rueckhaltebauwerk_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_abdeckung_ingmassnahme_art_qml_001
-        tablename: schtzbtrtschung_abdeckung_ingmassnahme_art
-    - Wirksamkeit_Typ:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_rueckhaltebauwerk_art_qml_001
+        tablename: wasser_rueckhaltebauwerk_art
+    - Rutschung_Abdeckung_IngMassnahme_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wirksamkeit_typ_qml_001
-        tablename: schutzbauten_wirksamkeit_typ
-    - Baumaterial_Typ:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_abdeckung_ingmassnahme_art_qml_001
+        tablename: rutschung_abdeckung_ingmassnahme_art
+    - Sturz_Schutznetz_Palisade_Damm_Schutzzaun_Mauer_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_baumaterial_typ_qml_001
-        tablename: schutzbauten_baumaterial_typ
-    - Hangstuetzwerk_Entwaesserung_Palisade_Art:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_hangstuetzwerk_entwaesserung_palisade_art_qml_001
-        tablename: schtzbtrtschung_hangstuetzwerk_entwaesserung_palisade_art
-    - Sperre_Schwelle_Art:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sperre_schwelle_art_qml_001
-        tablename: schutzbtn_wsser_sperre_schwelle_art
-    - Beurteilung_Typ:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_beurteilung_typ_qml_001
-        tablename: schutzbauten_beurteilung_typ
-    - Rampe_Sohlensicherung_Art:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rampe_sohlensicherung_art_qml_001
-        tablename: schutzbtn_wsser_rampe_sohlensicherung_art
-    - Abdeckung_Verankerung_Art:
-        checked: true
-        expanded: true
-        featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_abdeckung_verankerung_art_qml_001
-        tablename: schutzbtn_sturz_abdeckung_verankerung_art
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_schutznetz_palisade_damm_schutzzaun_mauer_art_qml_001
+        tablename: sturz_schutznetz_palisade_damm_schutzzaun_mauer_art
     - Koerperschaft_Typ:
         checked: true
         expanded: true
         featurecount: true
         qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_koerperschaft_typ_qml_001
-        tablename: schutzbauten_koerperschaft_typ
-    - Entlastungsstollen_kanal_Art:
+        tablename: koerperschaft_typ
+    - Wasser_Entlastungsstollen_kanal_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_entlastungsstollen_kanal_art_qml_001
-        tablename: schutzbtn_wsser_entlastungsstollen_kanal_art
-    - Uferdeckwerk_Ufermauer_Lebendverbau_Art:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_entlastungsstollen_kanal_art_qml_001
+        tablename: wasser_entlastungsstollen_kanal_art
+    - Wasser_Uferdeckwerk_Ufermauer_Lebendverbau_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_uferdeckwerk_ufermauer_lebendverbau_art_qml_001
-        tablename: schutzbtn_wsser_uferdeckwerk_ufermauer_lebendverbau_art
-    - Rueckhaltebauwerk_Art:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_uferdeckwerk_ufermauer_lebendverbau_art_qml_001
+        tablename: wasser_uferdeckwerk_ufermauer_lebendverbau_art
+    - Baumaterial_Typ:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rueckhaltebauwerk_art_qml_001
-        tablename: schutzbtn_wsser_rueckhaltebauwerk_art
-    - Schutznetz_Palisade_Damm_Schutzzaun_Mauer_Art:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_baumaterial_typ_qml_001
+        tablename: baumaterial_typ
+    - Wasser_Sperre_Schwelle_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_schutznetz_palisade_damm_schutzzaun_mauer_art_qml_001
-        tablename: schutzbtn_sturz_schutznetz_palisade_damm_schutzzan_muer_art
-    expanded: false
-    group: true
-- system:
-    checked: true
-    child-nodes:
-    - T_ILI2DB_DATASET:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_sperre_schwelle_art_qml_001
+        tablename: wasser_sperre_schwelle_art
+    - Wasser_Rampe_Sohlensicherung_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_t_ili2db_dataset_qml_001
-        tablename: T_ILI2DB_DATASET
-    - T_ILI2DB_BASKET:
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wasser_rampe_sohlensicherung_art_qml_001
+        tablename: wasser_rampe_sohlensicherung_art
+    - Sturz_Abdeckung_Verankerung_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_t_ili2db_basket_qml_001
-        tablename: T_ILI2DB_BASKET
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_sturz_abdeckung_verankerung_art_qml_001
+        tablename: sturz_abdeckung_verankerung_art
+    - Beurteilung_Typ:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_beurteilung_typ_qml_001
+        tablename: beurteilung_typ
+    - Wirksamkeit_Typ:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_wirksamkeit_typ_qml_001
+        tablename: wirksamkeit_typ
+    - Rutschung_Hangstuetzwerk_Entwaesserung_Palisade_Art:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_rutschung_hangstuetzwerk_entwaesserung_palisade_art_qml_001
+        tablename: rutschung_hangstuetzwerk_entwaesserung_palisade_art
     expanded: false
     group: true
 - base layers:
@@ -349,10 +308,8 @@ layertree:
         expanded: true
         provider: wms
         uri: contextualWMSLegend=0&crs=EPSG:2056&dpiMode=7&featureCount=10&format=image/jpeg&layers=ch.so.agi.hintergrundkarte_sw&styles&url=https://geo.so.ch/api/wms
-    expanded: true
+    expanded: false
     group: true
 properties:
   ili_optimize_strategy: GROUP
   transaction_mode: BufferedGroups
-variables:
-  optimize_strategy: GROUP
