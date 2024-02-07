@@ -1,143 +1,143 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis styleCategories="AllStyleCategories" readOnly="0" version="3.34.1-Prizren" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+<qgis maxScale="0" readOnly="0" styleCategories="AllStyleCategories" version="3.28.6-Firenze" minScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal mode="0" endField="" startExpression="" endExpression="" durationField="" accumulate="0" fixedDuration="0" enabled="0" startField="" limitMode="0" durationUnit="min">
+  <temporal endField="" startField="" fixedDuration="0" limitMode="0" durationField="" endExpression="" durationUnit="min" startExpression="" accumulate="0" enabled="0" mode="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation clamping="Terrain" type="IndividualFeatures" respectLayerSymbol="1" zscale="1" extrusion="0" symbology="Line" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" zoffset="0" binding="Centroid">
+  <elevation binding="Centroid" extrusionEnabled="0" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" symbology="Line" zscale="1" clamping="Terrain" extrusion="0" zoffset="0">
     <data-defined-properties>
       <Option type="Map">
-        <Option type="QString" value="" name="name"/>
+        <Option type="QString" name="name" value=""/>
         <Option name="properties"/>
-        <Option type="QString" value="collection" name="type"/>
+        <Option type="QString" name="type" value="collection"/>
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="" force_rhr="0" is_animated="0" frame_rate="10">
+      <symbol alpha="1" type="line" name="" force_rhr="0" is_animated="0" frame_rate="10" clip_to_extent="1">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" id="{31785c5b-76f6-450e-8751-6e4538efbee8}" class="SimpleLine" enabled="1" locked="0">
+        <layer pass="0" locked="0" class="SimpleLine" enabled="1">
           <Option type="Map">
-            <Option type="QString" value="0" name="align_dash_pattern"/>
-            <Option type="QString" value="square" name="capstyle"/>
-            <Option type="QString" value="5;2" name="customdash"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
-            <Option type="QString" value="MM" name="customdash_unit"/>
-            <Option type="QString" value="0" name="dash_pattern_offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
-            <Option type="QString" value="0" name="draw_inside_polygon"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="114,155,111,255" name="line_color"/>
-            <Option type="QString" value="solid" name="line_style"/>
-            <Option type="QString" value="0.6" name="line_width"/>
-            <Option type="QString" value="MM" name="line_width_unit"/>
-            <Option type="QString" value="0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="0" name="ring_filter"/>
-            <Option type="QString" value="0" name="trim_distance_end"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
-            <Option type="QString" value="MM" name="trim_distance_end_unit"/>
-            <Option type="QString" value="0" name="trim_distance_start"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
-            <Option type="QString" value="MM" name="trim_distance_start_unit"/>
-            <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
-            <Option type="QString" value="0" name="use_custom_dash"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+            <Option type="QString" name="align_dash_pattern" value="0"/>
+            <Option type="QString" name="capstyle" value="square"/>
+            <Option type="QString" name="customdash" value="5;2"/>
+            <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="customdash_unit" value="MM"/>
+            <Option type="QString" name="dash_pattern_offset" value="0"/>
+            <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
+            <Option type="QString" name="draw_inside_polygon" value="0"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="line_color" value="114,155,111,255"/>
+            <Option type="QString" name="line_style" value="solid"/>
+            <Option type="QString" name="line_width" value="0.6"/>
+            <Option type="QString" name="line_width_unit" value="MM"/>
+            <Option type="QString" name="offset" value="0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="ring_filter" value="0"/>
+            <Option type="QString" name="trim_distance_end" value="0"/>
+            <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="trim_distance_end_unit" value="MM"/>
+            <Option type="QString" name="trim_distance_start" value="0"/>
+            <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="trim_distance_start_unit" value="MM"/>
+            <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
+            <Option type="QString" name="use_custom_dash" value="0"/>
+            <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol type="fill" alpha="1" clip_to_extent="1" name="" force_rhr="0" is_animated="0" frame_rate="10">
+      <symbol alpha="1" type="fill" name="" force_rhr="0" is_animated="0" frame_rate="10" clip_to_extent="1">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" id="{eb18fd00-f61b-4949-9b1d-6454e0b4e4a0}" class="SimpleFill" enabled="1" locked="0">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="114,155,111,255" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="81,111,79,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.2" name="outline_width"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
+            <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="color" value="114,155,111,255"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="offset" value="0,0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="outline_color" value="81,111,79,255"/>
+            <Option type="QString" name="outline_style" value="solid"/>
+            <Option type="QString" name="outline_width" value="0.2"/>
+            <Option type="QString" name="outline_width_unit" value="MM"/>
+            <Option type="QString" name="style" value="solid"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol type="marker" alpha="1" clip_to_extent="1" name="" force_rhr="0" is_animated="0" frame_rate="10">
+      <symbol alpha="1" type="marker" name="" force_rhr="0" is_animated="0" frame_rate="10" clip_to_extent="1">
         <data_defined_properties>
           <Option type="Map">
-            <Option type="QString" value="" name="name"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer pass="0" id="{5c9390e4-874b-4810-9d70-c7e72a5164fa}" class="SimpleMarker" enabled="1" locked="0">
+        <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
           <Option type="Map">
-            <Option type="QString" value="0" name="angle"/>
-            <Option type="QString" value="square" name="cap_style"/>
-            <Option type="QString" value="114,155,111,255" name="color"/>
-            <Option type="QString" value="1" name="horizontal_anchor_point"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="diamond" name="name"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="81,111,79,255" name="outline_color"/>
-            <Option type="QString" value="solid" name="outline_style"/>
-            <Option type="QString" value="0.2" name="outline_width"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-            <Option type="QString" value="MM" name="outline_width_unit"/>
-            <Option type="QString" value="diameter" name="scale_method"/>
-            <Option type="QString" value="3" name="size"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-            <Option type="QString" value="MM" name="size_unit"/>
-            <Option type="QString" value="1" name="vertical_anchor_point"/>
+            <Option type="QString" name="angle" value="0"/>
+            <Option type="QString" name="cap_style" value="square"/>
+            <Option type="QString" name="color" value="114,155,111,255"/>
+            <Option type="QString" name="horizontal_anchor_point" value="1"/>
+            <Option type="QString" name="joinstyle" value="bevel"/>
+            <Option type="QString" name="name" value="diamond"/>
+            <Option type="QString" name="offset" value="0,0"/>
+            <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="offset_unit" value="MM"/>
+            <Option type="QString" name="outline_color" value="81,111,79,255"/>
+            <Option type="QString" name="outline_style" value="solid"/>
+            <Option type="QString" name="outline_width" value="0.2"/>
+            <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="outline_width_unit" value="MM"/>
+            <Option type="QString" name="scale_method" value="diameter"/>
+            <Option type="QString" name="size" value="3"/>
+            <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+            <Option type="QString" name="size_unit" value="MM"/>
+            <Option type="QString" name="vertical_anchor_point" value="1"/>
           </Option>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -149,59 +149,54 @@
       <Option type="List" name="dualview/previewExpressions">
         <Option type="QString" value="&quot;dateiname&quot;"/>
       </Option>
+      <Option type="int" name="embeddedWidgets/count" value="0"/>
       <Option type="StringList" name="variableNames">
-        <Option type="QString" value="interlis_topic"/>
-        <Option type="QString" value="oid_domain"/>
         <Option type="QString" value="interlis_topic"/>
         <Option type="QString" value="oid_domain"/>
       </Option>
       <Option type="StringList" name="variableValues">
         <Option type="QString" value="SO_AFU_Schutzbauten_20231212.Schutzbauten"/>
         <Option type="QString" value="INTERLIS.UUIDOID"/>
-        <Option type="QString" value="SO_AFU_Schutzbauten_20231212.Schutzbauten"/>
-        <Option type="QString" value="INTERLIS.UUIDOID"/>
       </Option>
     </Option>
   </customproperties>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-    <activeChecks type="StringList">
-      <Option type="QString" value=""/>
-    </activeChecks>
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+    <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
   <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="NoFlag" name="T_Id">
-      <editWidget type="">
+    <field name="T_Id" configurationFlags="None">
+      <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="T_Ili_Tid">
-      <editWidget type="">
+    <field name="T_Ili_Tid" configurationFlags="None">
+      <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="titel">
-      <editWidget type="">
+    <field name="titel" configurationFlags="None">
+      <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="beschrieb">
-      <editWidget type="">
+    <field name="beschrieb" configurationFlags="None">
+      <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="NoFlag" name="dateiname">
-      <editWidget type="">
+    <field name="dateiname" configurationFlags="None">
+      <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
@@ -215,38 +210,40 @@
     <alias field="beschrieb" name="Beschrieb" index="3"/>
     <alias field="dateiname" name="Dateiname" index="4"/>
   </aliases>
-  <splitPolicies>
-    <policy field="T_Id" policy="Duplicate"/>
-    <policy field="T_Ili_Tid" policy="Duplicate"/>
-    <policy field="titel" policy="Duplicate"/>
-    <policy field="beschrieb" policy="Duplicate"/>
-    <policy field="dateiname" policy="Duplicate"/>
-  </splitPolicies>
   <defaults>
-    <default expression="sqlite_fetch_and_increment(@layer, 'T_KEY_OBJECT', 'T_LastUniqueId', 'T_Key', 'T_Id', map('T_LastChange','date(''now'')','T_CreateDate','date(''now'')','T_User','''' || @user_account_name || ''''))" field="T_Id" applyOnUpdate="0"/>
-    <default expression="uuid('WithoutBraces')" field="T_Ili_Tid" applyOnUpdate="0"/>
-    <default expression="" field="titel" applyOnUpdate="0"/>
-    <default expression="" field="beschrieb" applyOnUpdate="0"/>
-    <default expression="" field="dateiname" applyOnUpdate="0"/>
+    <default field="T_Id" expression="sqlite_fetch_and_increment(@layer, 'T_KEY_OBJECT', 'T_LastUniqueId', 'T_Key', 'T_Id', map('T_LastChange','date(''now'')','T_CreateDate','date(''now'')','T_User','''' || @user_account_name || ''''))" applyOnUpdate="0"/>
+    <default field="T_Ili_Tid" expression="uuid('WithoutBraces')" applyOnUpdate="0"/>
+    <default field="titel" expression="" applyOnUpdate="0"/>
+    <default field="beschrieb" expression="" applyOnUpdate="0"/>
+    <default field="dateiname" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint field="T_Id" unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0"/>
-    <constraint field="T_Ili_Tid" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="titel" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
-    <constraint field="beschrieb" unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="dateiname" unique_strength="0" constraints="1" notnull_strength="1" exp_strength="0"/>
+    <constraint field="T_Id" exp_strength="0" constraints="3" unique_strength="1" notnull_strength="1"/>
+    <constraint field="T_Ili_Tid" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="titel" exp_strength="0" constraints="1" unique_strength="0" notnull_strength="1"/>
+    <constraint field="beschrieb" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="dateiname" exp_strength="0" constraints="1" unique_strength="0" notnull_strength="1"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" field="T_Id" desc=""/>
-    <constraint exp="" field="T_Ili_Tid" desc=""/>
-    <constraint exp="" field="titel" desc=""/>
-    <constraint exp="" field="beschrieb" desc=""/>
-    <constraint exp="" field="dateiname" desc=""/>
+    <constraint field="T_Id" desc="" exp=""/>
+    <constraint field="T_Ili_Tid" desc="" exp=""/>
+    <constraint field="titel" desc="" exp=""/>
+    <constraint field="beschrieb" desc="" exp=""/>
+    <constraint field="dateiname" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
-  <attributeactions/>
-  <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-    <columns/>
+  <attributeactions>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+  </attributeactions>
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+    <columns>
+      <column type="field" hidden="0" width="-1" name="T_Id"/>
+      <column type="field" hidden="0" width="-1" name="T_Ili_Tid"/>
+      <column type="field" hidden="0" width="-1" name="titel"/>
+      <column type="field" hidden="0" width="-1" name="beschrieb"/>
+      <column type="field" hidden="0" width="-1" name="dateiname"/>
+      <column type="actions" hidden="1" width="-1"/>
+    </columns>
   </attributetableconfig>
   <conditionalstyles>
     <rowstyles/>
@@ -257,449 +254,481 @@
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
   <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[]]></editforminitcode>
+  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
+
+Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
+
+Der Name der Funktion wird im Feld "Python Init-Function" angegeben
+Ein Beispiel folgt:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-      <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+      <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
     </labelStyle>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="General" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="General" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorField showLabel="1" horizontalStretch="0" verticalStretch="0" name="titel" index="2">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorField name="titel" showLabel="1" index="2">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField showLabel="1" horizontalStretch="0" verticalStretch="0" name="beschrieb" index="3">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorField name="beschrieb" showLabel="1" index="3">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField showLabel="1" horizontalStretch="0" verticalStretch="0" name="dateiname" index="4">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorField name="dateiname" showLabel="1" index="4">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_andere_werksart_flaeche" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_andere_werksart_flaeche" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_flaeche_wasser_andere_werksart_flaeche_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_flaeche_wasser_andere_werksart_flaeche_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_entlastungsstollen_kanal" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_entlastungsstollen_kanal" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_entlastungsstollen_kanal_wasser_entlastungsstollen_kanal_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_entlastungsstollen_kanal_wasser_entlastungsstollen_kanal_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_buhne" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_buhne" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_buhne_wasser_buhne_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_buhne_wasser_buhne_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_andere_werksart_punkt" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_andere_werksart_punkt" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_punkt_wasser_andere_werksart_punkt_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_punkt_wasser_andere_werksart_punkt_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_uferdeckwerk_ufermauer_lebendverbau" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_uferdeckwerk_ufermauer_lebendverbau" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_damm" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_damm" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_damm_wasser_damm_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_damm_wasser_damm_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_mauer" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_mauer" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_mauer_wasser_mauer_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_mauer_wasser_mauer_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_rueckhaltebauwerk" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_rueckhaltebauwerk" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_eindolung" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_eindolung" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_eindolung_wasser_eindolung_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_eindolung_wasser_eindolung_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_bruecke_steg" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_bruecke_steg" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_bruecke_steg_wasser_bruecke_steg_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_bruecke_steg_wasser_bruecke_steg_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_furt" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_furt" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_furt_wasser_furt_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_furt_wasser_furt_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_geschiebeablagerungsplatz" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_geschiebeablagerungsplatz" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_geschiebeablagerungsplatz_wasser_geschiebeablagerungsplatz_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_geschiebeablagerungsplatz_wasser_geschiebeablagerungsplatz_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_rampe_sohlensicherung" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_rampe_sohlensicherung" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_rampe_sohlensicherung_wasser_rampe_sohlensicherung_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_rampe_sohlensicherung_wasser_rampe_sohlensicherung_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_sperre_schwelle" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_sperre_schwelle" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_sperre_schwelle_wasser_sperre_schwelle_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_sperre_schwelle_wasser_sperre_schwelle_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_andere_werksart_linie" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_andere_werksart_linie" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_linie_wasser_andere_werksart_linie_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_linie_wasser_andere_werksart_linie_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_entlastungsbauwerk" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_entlastungsbauwerk" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_entlastungsbauwerk_wasser_entlastungsbauwerk_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_entlastungsbauwerk_wasser_entlastungsbauwerk_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="wasser_murbrecher_murbremse" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="wasser_murbrecher_murbremse" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_murbrecher_murbremse_wasser_murbrecher_murbremse_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_murbrecher_murbremse_wasser_murbrecher_murbremse_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_andere_werksart_linie" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_andere_werksart_linie" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_linie_sturz_andere_werksart_linie_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_linie_sturz_andere_werksart_linie_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_unterfangung" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_unterfangung" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_unterfangung_sturz_unterfangung_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_unterfangung_sturz_unterfangung_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_andere_werksart_flaeche" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_andere_werksart_flaeche" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_flaeche_sturz_andere_werksart_flaeche_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_flaeche_sturz_andere_werksart_flaeche_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_galerie" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_galerie" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_galerie_sturz_galerie_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_galerie_sturz_galerie_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_abdeckung_verankerung" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_abdeckung_verankerung" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_abdeckung_verankerung_sturz_abdeckung_verankerung_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_abdeckung_verankerung_sturz_abdeckung_verankerung_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_schutznetz_palisade_damm_schutzzaun_mauer" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_schutznetz_palisade_damm_schutzzaun_mauer" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_schutznetz_palisade_dmm_schtzzn_muer_sturz_schutznetz_palisade_damm_schutzzaun_mauer_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_schutznetz_palisade_dmm_schtzzn_muer_sturz_schutznetz_palisade_damm_schutzzaun_mauer_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="sturz_andere_werksart_punkt" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="sturz_andere_werksart_punkt" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_punkt_sturz_andere_werksart_punkt_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_sturz_andere_werksart_punkt_sturz_andere_werksart_punkt_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_damm" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_damm" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_damm_rutschung_damm_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_damm_rutschung_damm_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_auffangnetz" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_auffangnetz" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_auffangnetz_rutschung_auffangnetz_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_auffangnetz_rutschung_auffangnetz_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_abdeckung_ingmassnahme" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_abdeckung_ingmassnahme" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_abdeckung_ingmassnahme_rutschung_abdeckung_ingmassnahme_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_abdeckung_ingmassnahme_rutschung_abdeckung_ingmassnahme_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_andere_werksart_linie" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_andere_werksart_linie" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_linie_rutschung_andere_werksart_linie_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_linie_rutschung_andere_werksart_linie_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_hangstuetzwerk_entwaesserung_palisade" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_hangstuetzwerk_entwaesserung_palisade" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_hangstuetzwerk_entwassrng_plsade_rutschung_hangstuetzwerk_entwaesserung_palisade_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_hangstuetzwerk_entwassrng_plsade_rutschung_hangstuetzwerk_entwaesserung_palisade_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_andere_werksart_punkt" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_andere_werksart_punkt" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_punkt_rutschung_andere_werksart_punkt_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_punkt_rutschung_andere_werksart_punkt_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer showLabel="1" collapsedExpressionEnabled="0" type="Tab" horizontalStretch="0" groupBox="0" verticalStretch="0" collapsed="0" collapsedExpression="" name="rutschung_andere_werksart_flaeche" visibilityExpressionEnabled="0" columnCount="1" visibilityExpression="">
-      <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-        <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+    <attributeEditorContainer visibilityExpressionEnabled="0" groupBox="0" visibilityExpression="" collapsed="0" name="rutschung_andere_werksart_flaeche" collapsedExpression="" collapsedExpressionEnabled="0" showLabel="1" columnCount="1">
+      <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation showLabel="1" label="" horizontalStretch="0" verticalStretch="0" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" name="schutzbaute_dokument_dokument_dokument_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_flaeche_rutschung_andere_werksart_flaeche_T_Id">
-        <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
-          <labelFont bold="0" strikethrough="0" italic="0" style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" underline="0"/>
+      <attributeEditorRelation label="" nmRelationId="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_flaeche_rutschung_andere_werksart_flaeche_T_Id" name="schutzbaute_dokument_dokument_dokument_T_Id" forceSuppressFormPopup="0" relationWidgetTypeId="linking_relation_editor" showLabel="1" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+        <labelStyle overrideLabelFont="0" overrideLabelColor="0" labelColor="0,0,0,255">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" strikethrough="0" italic="0" bold="0" underline="0" style=""/>
         </labelStyle>
         <editor_configuration type="Map">
-          <Option type="QString" value="AllButtons" name="buttons"/>
+          <Option type="QString" name="buttons" value="AllButtons"/>
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
   </attributeEditorForm>
-  <editable/>
-  <labelOnTop/>
-  <reuseLastValue/>
+  <editable>
+    <field editable="1" name="T_Id"/>
+    <field editable="1" name="T_Ili_Tid"/>
+    <field editable="1" name="beschrieb"/>
+    <field editable="1" name="dateiname"/>
+    <field editable="1" name="titel"/>
+  </editable>
+  <labelOnTop>
+    <field name="T_Id" labelOnTop="0"/>
+    <field name="T_Ili_Tid" labelOnTop="0"/>
+    <field name="beschrieb" labelOnTop="0"/>
+    <field name="dateiname" labelOnTop="0"/>
+    <field name="titel" labelOnTop="0"/>
+  </labelOnTop>
+  <reuseLastValue>
+    <field name="T_Id" reuseLastValue="0"/>
+    <field name="T_Ili_Tid" reuseLastValue="0"/>
+    <field name="beschrieb" reuseLastValue="0"/>
+    <field name="dateiname" reuseLastValue="0"/>
+    <field name="titel" reuseLastValue="0"/>
+  </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets>
     <widget name="schutzbaute_dokument_dokument_dokument_T_Id">
       <config type="Map">
-        <Option type="QString" value="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_flaeche_wasser_andere_werksart_flaeche_T_Id" name="nm-rel"/>
+        <Option type="QString" name="nm-rel" value="schutzbaute_dokument_schutzbaute_wasser_andere_werksart_flaeche_wasser_andere_werksart_flaeche_T_Id"/>
       </config>
     </widget>
   </widgets>
   <previewExpression>"dateiname"</previewExpression>
-  <mapTip enabled="1"></mapTip>
+  <mapTip></mapTip>
   <layerGeometryType>4</layerGeometryType>
 </qgis>
