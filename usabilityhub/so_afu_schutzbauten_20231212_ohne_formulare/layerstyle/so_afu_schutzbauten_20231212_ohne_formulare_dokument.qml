@@ -732,7 +732,7 @@ def my_form_open(dialog, layer, feature):
       </config>
     </widget>
   </widgets>
-  <previewExpression>"dateiname"</previewExpression>
+  <previewExpression>titel || '; ' || dateiname</previewExpression>
   <mapTip></mapTip>
   <layerGeometryType>4</layerGeometryType>
 </qgis>
