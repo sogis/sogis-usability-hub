@@ -391,6 +391,7 @@
             <Option name="Relation" value="schutzbaute_dokument_schutzbaute_rutschung_andere_werksart_punkt_rutschung_andere_werksart_punkt_T_Id" type="QString"/>
             <Option name="ShowForm" value="false" type="bool"/>
             <Option name="ShowOpenFormButton" value="false" type="bool"/>
+
           </Option>
         </config>
       </editWidget>
