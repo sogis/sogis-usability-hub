@@ -19,7 +19,7 @@
         <layer enabled="1" locked="0" pass="0" id="{2210c3d2-15df-4a79-8fb5-ba3cdf9b55b7}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="170,115,0,255" name="color"/>
+            <Option type="QString" value="170,115,0,128" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -339,7 +339,7 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="true" name="IsMultiline"/>
             <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
@@ -444,7 +444,7 @@
     <constraint notnull_strength="2" field="material" exp_strength="0" unique_strength="0" constraints="1"/>
     <constraint notnull_strength="2" field="erstellungsjahr" exp_strength="0" unique_strength="0" constraints="1"/>
     <constraint notnull_strength="2" field="erhaltungsverantwortung_kategorie" exp_strength="0" unique_strength="0" constraints="1"/>
-    <constraint notnull_strength="0" field="erhaltungsverantwortung_name" exp_strength="0" unique_strength="0" constraints="0"/>
+    <constraint notnull_strength="2" field="erhaltungsverantwortung_name" exp_strength="0" unique_strength="0" constraints="1"/>
     <constraint notnull_strength="2" field="zustand" exp_strength="0" unique_strength="0" constraints="1"/>
     <constraint notnull_strength="0" field="zustandsbeurteilung_jahr" exp_strength="0" unique_strength="0" constraints="0"/>
     <constraint notnull_strength="0" field="bemerkungen" exp_strength="0" unique_strength="0" constraints="0"/>

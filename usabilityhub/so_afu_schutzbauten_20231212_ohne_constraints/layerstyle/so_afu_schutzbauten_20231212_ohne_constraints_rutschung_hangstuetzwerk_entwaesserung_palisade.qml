@@ -315,7 +315,7 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="true" name="IsMultiline"/>
             <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
