@@ -19,7 +19,7 @@
         <layer enabled="1" locked="0" pass="0" id="{a4983a4f-9c70-4f66-b30d-2590b7f808a1}" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="170,115,0,255" name="color"/>
+            <Option type="QString" value="170,115,0,128" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -289,7 +289,7 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="true" name="IsMultiline"/>
             <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
