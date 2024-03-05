@@ -369,21 +369,21 @@
   <aliases>
     <alias field="T_Id" index="0" name=""/>
     <alias field="T_Ili_Tid" index="1" name=""/>
-    <alias field="laenge" index="2" name="Laenge [m]"/>
+    <alias field="laenge" index="2" name="Länge [m]"/>
     <alias field="breite" index="3" name="Breite [m]"/>
-    <alias field="hoehe" index="4" name="Hoehe [m]"/>
-    <alias field="hoehe_zum_umland" index="5" name="Hoehe_zum_Umland [m]"/>
-    <alias field="flaeche" index="6" name="Flaeche [m2]"/>
-    <alias field="rueckhaltevolumen" index="7" name="Rueckhaltevolumen [m3]"/>
-    <alias field="weiterer_prozess_wasser" index="8" name="weiterer_Prozess_Wasser"/>
-    <alias field="weiterer_prozess_sturz" index="9" name="weiterer_Prozess_Sturz"/>
-    <alias field="schutzbauten_id" index="10" name="Schutzbauten_ID"/>
+    <alias field="hoehe" index="4" name="Höhe [m]"/>
+    <alias field="hoehe_zum_umland" index="5" name="Höhe zum Umland [m]"/>
+    <alias field="flaeche" index="6" name="Fläche [m2]"/>
+    <alias field="rueckhaltevolumen" index="7" name="Rückhaltevolumen [m3]"/>
+    <alias field="weiterer_prozess_wasser" index="8" name="weiterer Prozess Wasser"/>
+    <alias field="weiterer_prozess_sturz" index="9" name="weiterer Prozess Sturz"/>
+    <alias field="schutzbauten_id" index="10" name="Schutzbauten ID"/>
     <alias field="material" index="11" name="Material"/>
     <alias field="erstellungsjahr" index="12" name="Erstellungsjahr [Y]"/>
-    <alias field="erhaltungsverantwortung_kategorie" index="13" name="Erhaltungsverantwortung_Kategorie"/>
-    <alias field="erhaltungsverantwortung_name" index="14" name="Erhaltungsverantwortung_Name"/>
+    <alias field="erhaltungsverantwortung_kategorie" index="13" name="Erhaltungsverantwortung Kategorie"/>
+    <alias field="erhaltungsverantwortung_name" index="14" name="Erhaltungsverantwortung Name"/>
     <alias field="zustand" index="15" name="Zustand"/>
-    <alias field="zustandsbeurteilung_jahr" index="16" name="Zustandsbeurteilung_Jahr [Y]"/>
+    <alias field="zustandsbeurteilung_jahr" index="16" name="Zustandsbeurteilung Jahr [Y]"/>
     <alias field="bemerkungen" index="17" name="Bemerkungen"/>
     <alias field="wirksamkeit" index="18" name="Wirksamkeit"/>
   </aliases>
@@ -472,25 +472,11 @@
     <constraint field="wirksamkeit" exp="" desc=""/>
   </constraintExpressions>
   <expressionfields/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
-
-Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
-
-Der Name der Funktion wird im Feld "Python Init-Function" angegeben
-Ein Beispiel folgt:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+  <editforminitfilepath/>
+  <editforminitcode/>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>

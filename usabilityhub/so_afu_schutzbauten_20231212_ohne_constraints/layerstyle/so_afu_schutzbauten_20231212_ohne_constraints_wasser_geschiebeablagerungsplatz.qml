@@ -263,16 +263,16 @@
   <aliases>
     <alias index="0" field="T_Id" name=""/>
     <alias index="1" field="T_Ili_Tid" name=""/>
-    <alias index="2" field="flaeche" name="Flaeche"/>
-    <alias index="3" field="weiterer_prozess_rutschung" name="weiterer_Prozess_Rutschung"/>
-    <alias index="4" field="weiterer_prozess_sturz" name="weiterer_Prozess_Sturz"/>
-    <alias index="5" field="schutzbauten_id" name="Schutzbauten_ID"/>
+    <alias index="2" field="flaeche" name="Fläche [m2]"/>
+    <alias index="3" field="weiterer_prozess_rutschung" name="weiterer Prozess Rutschung"/>
+    <alias index="4" field="weiterer_prozess_sturz" name="weiterer Prozess Sturz"/>
+    <alias index="5" field="schutzbauten_id" name="Schutzbauten ID"/>
     <alias index="6" field="material" name="Material"/>
-    <alias index="7" field="erstellungsjahr" name="Erstellungsjahr"/>
-    <alias index="8" field="erhaltungsverantwortung_kategorie" name="Erhaltungsverantwortung_Kategorie"/>
-    <alias index="9" field="erhaltungsverantwortung_name" name="Erhaltungsverantwortung_Name"/>
+    <alias index="7" field="erstellungsjahr" name="Erstellungsjahr [Y]"/>
+    <alias index="8" field="erhaltungsverantwortung_kategorie" name="Erhaltungsverantwortung Kategorie"/>
+    <alias index="9" field="erhaltungsverantwortung_name" name="Erhaltungsverantwortung Name"/>
     <alias index="10" field="zustand" name="Zustand"/>
-    <alias index="11" field="zustandsbeurteilung_jahr" name="Zustandsbeurteilung_Jahr"/>
+    <alias index="11" field="zustandsbeurteilung_jahr" name="Zustandsbeurteilung Jahr [Y]"/>
     <alias index="12" field="bemerkungen" name="Bemerkungen"/>
     <alias index="13" field="wirksamkeit" name="Wirksamkeit"/>
   </aliases>
@@ -295,7 +295,7 @@
   <constraints>
     <constraint constraints="3" unique_strength="1" field="T_Id" notnull_strength="1" exp_strength="0"/>
     <constraint constraints="0" unique_strength="0" field="T_Ili_Tid" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="flaeche" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="1" unique_strength="0" field="flaeche" notnull_strength="2" exp_strength="0"/>
     <constraint constraints="1" unique_strength="0" field="weiterer_prozess_rutschung" notnull_strength="2" exp_strength="0"/>
     <constraint constraints="1" unique_strength="0" field="weiterer_prozess_sturz" notnull_strength="2" exp_strength="0"/>
     <constraint constraints="1" unique_strength="0" field="schutzbauten_id" notnull_strength="2" exp_strength="0"/>
@@ -325,25 +325,11 @@
     <constraint exp="" field="wirksamkeit" desc=""/>
   </constraintExpressions>
   <expressionfields/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
-
-Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
-
-Der Name der Funktion wird im Feld "Python Init-Function" angegeben
-Ein Beispiel folgt:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+  <editforminitfilepath/>
+  <editforminitcode/>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
