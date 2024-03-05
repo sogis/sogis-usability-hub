@@ -8,8 +8,8 @@
   </flags>
   <temporal limitMode="0" endField="" startField="" startExpression="" endExpression="" fixedDuration="0" durationField="" durationUnit="min" accumulate="0" enabled="0" mode="0">
     <fixedRange>
-      <start></start>
-      <end></end>
+      <start/>
+      <end/>
     </fixedRange>
   </temporal>
   <elevation extrusionEnabled="0" binding="Centroid" symbology="Line" zscale="1" extrusion="0" showMarkerSymbolInSurfacePlots="0" zoffset="0" clamping="Terrain" type="IndividualFeatures" respectLayerSymbol="1">
@@ -303,25 +303,11 @@
     <fieldstyles/>
   </conditionalstyles>
   <storedexpressions/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
-
-Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
-
-Der Name der Funktion wird im Feld "Python Init-Function" angegeben
-Ein Beispiel folgt:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+  <editforminitfilepath/>
+  <editforminitcode/>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
@@ -423,6 +409,6 @@ def my_form_open(dialog, layer, feature):
   <dataDefinedFieldProperties/>
   <widgets/>
   <previewExpression>"dispName"</previewExpression>
-  <mapTip></mapTip>
+  <mapTip/>
   <layerGeometryType>4</layerGeometryType>
 </qgis>

@@ -293,15 +293,15 @@
   <aliases>
     <alias name="" field="T_Id" index="0"/>
     <alias name="" field="T_Ili_Tid" index="1"/>
-    <alias name="weiterer_Prozess_Wasser" field="weiterer_prozess_wasser" index="2"/>
-    <alias name="weiterer_Prozess_Rutschung" field="weiterer_prozess_rutschung" index="3"/>
-    <alias name="Schutzbauten_ID" field="schutzbauten_id" index="4"/>
+    <alias name="weiterer Prozess Wasser" field="weiterer_prozess_wasser" index="2"/>
+    <alias name="weiterer Prozess Rutschung" field="weiterer_prozess_rutschung" index="3"/>
+    <alias name="Schutzbauten ID" field="schutzbauten_id" index="4"/>
     <alias name="Material" field="material" index="5"/>
-    <alias name="Erstellungsjahr" field="erstellungsjahr" index="6"/>
-    <alias name="Erhaltungsverantwortung_Kategorie" field="erhaltungsverantwortung_kategorie" index="7"/>
-    <alias name="Erhaltungsverantwortung_Name" field="erhaltungsverantwortung_name" index="8"/>
+    <alias name="Erstellungsjahr [Y]" field="erstellungsjahr" index="6"/>
+    <alias name="Erhaltungsverantwortung Kategorie" field="erhaltungsverantwortung_kategorie" index="7"/>
+    <alias name="Erhaltungsverantwortung Name" field="erhaltungsverantwortung_name" index="8"/>
     <alias name="Zustand" field="zustand" index="9"/>
-    <alias name="Zustandsbeurteilung_Jahr" field="zustandsbeurteilung_jahr" index="10"/>
+    <alias name="Zustandsbeurteilung Jahr [Y]" field="zustandsbeurteilung_jahr" index="10"/>
     <alias name="Bemerkungen" field="bemerkungen" index="11"/>
     <alias name="Wirksamkeit" field="wirksamkeit" index="12"/>
   </aliases>
@@ -366,25 +366,11 @@
     <constraint desc="" exp="" field="wirksamkeit"/>
   </constraintExpressions>
   <expressionfields/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
-
-Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
-
-Der Name der Funktion wird im Feld "Python Init-Function" angegeben
-Ein Beispiel folgt:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+  <editforminitfilepath/>
+  <editforminitcode/>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>

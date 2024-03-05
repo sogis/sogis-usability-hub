@@ -287,17 +287,17 @@
   <aliases>
     <alias name="" index="0" field="T_Id"/>
     <alias name="" index="1" field="T_Ili_Tid"/>
-    <alias name="Breite" index="2" field="breite"/>
-    <alias name="Hoehe" index="3" field="hoehe"/>
-    <alias name="weiterer_Prozess_Rutschung" index="4" field="weiterer_prozess_rutschung"/>
-    <alias name="weiterer_Prozess_Sturz" index="5" field="weiterer_prozess_sturz"/>
-    <alias name="Schutzbauten_ID" index="6" field="schutzbauten_id"/>
+    <alias name="Breite [m]" index="2" field="breite"/>
+    <alias name="Höhe [m]" index="3" field="hoehe"/>
+    <alias name="weiterer Prozess Rutschung" index="4" field="weiterer_prozess_rutschung"/>
+    <alias name="weiterer Prozess Sturz" index="5" field="weiterer_prozess_sturz"/>
+    <alias name="Schutzbauten ID" index="6" field="schutzbauten_id"/>
     <alias name="Material" index="7" field="material"/>
-    <alias name="Erstellungsjahr" index="8" field="erstellungsjahr"/>
-    <alias name="Erhaltungsverantwortung_Kategorie" index="9" field="erhaltungsverantwortung_kategorie"/>
-    <alias name="Erhaltungsverantwortung_Name" index="10" field="erhaltungsverantwortung_name"/>
+    <alias name="Erstellungsjahr [Y]" index="8" field="erstellungsjahr"/>
+    <alias name="Erhaltungsverantwortung Kategorie" index="9" field="erhaltungsverantwortung_kategorie"/>
+    <alias name="Erhaltungsverantwortung Name" index="10" field="erhaltungsverantwortung_name"/>
     <alias name="Zustand" index="11" field="zustand"/>
-    <alias name="Zustandsbeurteilung_Jahr" index="12" field="zustandsbeurteilung_jahr"/>
+    <alias name="Zustandsbeurteilung Jahr [Y]" index="12" field="zustandsbeurteilung_jahr"/>
     <alias name="Bemerkungen" index="13" field="bemerkungen"/>
     <alias name="Wirksamkeit" index="14" field="wirksamkeit"/>
   </aliases>
@@ -353,25 +353,11 @@
     <constraint exp="" field="wirksamkeit" desc=""/>
   </constraintExpressions>
   <expressionfields/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS-Formulare können eine Python-Funktion haben,, die aufgerufen wird, wenn sich das Formular öffnet
-
-Diese Funktion kann verwendet werden um dem Formular Extralogik hinzuzufügen.
-
-Der Name der Funktion wird im Feld "Python Init-Function" angegeben
-Ein Beispiel folgt:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+  <editforminitfilepath/>
+  <editforminitcode/>
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
