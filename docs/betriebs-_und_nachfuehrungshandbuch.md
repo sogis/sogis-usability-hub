@@ -1,7 +1,7 @@
 # Betriebs- und Nachführungshandbuch
 
 ## Einleitung
-SO!GIS UsabILIty Hub ist eine Docker-Image und beinhaltet [QGIS Model Baker Konfigurationen](https://opengisch.github.io/QgisModelBaker/en/background_info/repositories/). Im Git-Repository werden die originalen / "lokalen" Usability Hub Exports verwaltet. Es sind Verzeichnisse mit einer _ilidata.xml_-Datei und weiteren Verzeichnissen. Zusätzlich hat es weitere notwendige Dateien. Aus dein einzelnen Usability Hub Exports wird in der Github Action Pipeline eine einzige _ilidata.xml_-Datei erstellt und die einzelnen _ilidata.xml_-Dateien werden nicht in das Image kopiert. Das Resultat ist technisch ein INTERLIS-Datenrepository mit sämtlichen QGIS Model Baker Konfigurationen (oder auch Model Baker Exporte).
+SO!GIS UsabILIty Hub ist eine Docker-Image und beinhaltet [QGIS Model Baker Konfigurationen](https://opengisch.github.io/QgisModelBaker/background_info/usabilityhub/user_guide/). Im Git-Repository werden die originalen / "lokalen" Usability Hub Exports verwaltet. Es sind Verzeichnisse mit einer _ilidata.xml_-Datei und weiteren Verzeichnissen. Zusätzlich hat es weitere notwendige Dateien. Aus den einzelnen Usability Hub Exports wird in der Github Action Pipeline eine einzige _ilidata.xml_-Datei erstellt und die einzelnen _ilidata.xml_-Dateien werden nicht in das Image kopiert. Das Resultat ist technisch ein INTERLIS-Datenrepository mit sämtlichen QGIS Model Baker Konfigurationen (oder auch Model Baker Exporte).
 
 Die _ilidata.xml_-Datei wird nach dem Erstellen mit _ilivalidator_ geprüft. Anschliessend wird das Image erstellt, ein Container gestartet und geprüft. Ist die Prüfung erfolgreich wird das Image nach Docker Hub und in die Github Registry deployed. Das Image wird viertelstündlich in der GDI deployed.
 
@@ -48,7 +48,7 @@ Lokal kann man mit folgendem Befehl das Repository testen und erweitern (Docker 
 ./gradlew createIliDataXml buildImage startContainer checkUsabilityHub
 ```
 
-* Der Task `startContainer` startet einen lokalen Server auf dem Port 8080, somit ist der lokale UsabilityHub unter [http://localhost:8080/](http://localhost:8080/) erreichbar.
+* Der Task `startContainer` startet einen lokalen Server auf dem Port 8081, somit ist der lokale UsabilityHub unter [http://localhost:8081/](http://localhost:8081/) erreichbar. Port 8081 ist bewusst gewählt (anstatt wie üblich 8080), damit der lokale UsabilityHub zusammen mit einem lokalen Modell Repository auf Port 8080 gestartet werden kann.
 * Der Task `checkUsabilityHub` ist sehr einfach. Er überprüft den Statuscode und ob ein Objekt-Tag vorhanden ist.
 
 Mit
