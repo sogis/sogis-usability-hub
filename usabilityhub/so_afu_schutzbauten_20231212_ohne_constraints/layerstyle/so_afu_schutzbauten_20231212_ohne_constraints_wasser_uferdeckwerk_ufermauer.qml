@@ -104,8 +104,8 @@
             <Option name="Description" type="QString" value="&quot;dispName&quot;"/>
             <Option name="FilterExpression" type="QString" value=""/>
             <Option name="Key" type="QString" value="iliCode"/>
-            <Option name="Layer" type="QString" value="Wasser_Uferdeckwerk_Ufermauer_Lebendverbau_Art_b0ee2b90_ae4f_4908_9d70_b78f7b4fca52"/>
-            <Option name="LayerName" type="QString" value="Wasser_Uferdeckwerk_Ufermauer_Lebendverbau_Art"/>
+            <Option name="Layer" type="QString" value="Wasser_Uferdeckwerk_Ufermauer_Art_b0ee2b90_ae4f_4908_9d70_b78f7b4fca52"/>
+            <Option name="LayerName" type="QString" value="Wasser_Uferdeckwerk_Ufermauer_Art"/>
             <Option name="LayerProviderName" type="QString" value="ogr"/>
             <Option name="NofColumns" type="int" value="1"/>
             <Option name="OrderByValue" type="bool" value="false"/>
@@ -487,7 +487,7 @@
       <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
         <labelFont strikethrough="0" description="DejaVu Sans,11,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0" style=""/>
       </labelStyle>
-      <attributeEditorRelation name="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id" forceSuppressFormPopup="0" label="" nmRelationId="schutzbaute_dokument_dokument_dokument_T_Id" showLabel="1" relation="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id" relationWidgetTypeId="linking_relation_editor">
+      <attributeEditorRelation name="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_wasser_uferdeckwerk_ufermauer_T_Id" forceSuppressFormPopup="0" label="" nmRelationId="schutzbaute_dokument_dokument_dokument_T_Id" showLabel="1" relation="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_wasser_uferdeckwerk_ufermauer_T_Id" relationWidgetTypeId="linking_relation_editor">
         <labelStyle overrideLabelColor="0" labelColor="0,0,0,255" overrideLabelFont="0">
           <labelFont strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" underline="0" bold="0" style=""/>
         </labelStyle>
@@ -574,7 +574,7 @@
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets>
-    <widget name="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id">
+    <widget name="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_wasser_uferdeckwerk_ufermauer_T_Id">
       <config type="Map">
         <Option name="nm-rel" type="QString" value="schutzbaute_dokument_dokument_dokument_T_Id"/>
       </config>

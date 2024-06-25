@@ -355,11 +355,11 @@ def my_form_open(dialog, layer, feature):
         </editor_configuration>
       </attributeEditorRelation>
     </attributeEditorContainer>
-    <attributeEditorContainer columnCount="1" groupBox="0" collapsedExpressionEnabled="0" visibilityExpression="" collapsedExpression="" visibilityExpressionEnabled="0" name="wasser_uferdeckwerk_ufermauer_lebendverbau" showLabel="1" collapsed="0">
+    <attributeEditorContainer columnCount="1" groupBox="0" collapsedExpressionEnabled="0" visibilityExpression="" collapsedExpression="" visibilityExpressionEnabled="0" name="wasser_uferdeckwerk_ufermauer" showLabel="1" collapsed="0">
       <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
         <labelFont bold="0" underline="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" italic="0" strikethrough="0"/>
       </labelStyle>
-      <attributeEditorRelation forceSuppressFormPopup="0" label="" name="schutzbaute_dokument_dokument_dokument_T_Id" relationWidgetTypeId="linking_relation_editor" showLabel="1" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+      <attributeEditorRelation forceSuppressFormPopup="0" label="" name="schutzbaute_dokument_dokument_dokument_T_Id" relationWidgetTypeId="linking_relation_editor" showLabel="1" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_wasser_uferdeckwerk_ufermauer_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
           <labelFont bold="0" underline="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" italic="0" strikethrough="0"/>
         </labelStyle>
