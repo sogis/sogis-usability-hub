@@ -20,12 +20,12 @@ layertree:
         featurecount: true
         qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_andere_werksart_punkt_qml_001
         tablename: wasser_andere_werksart_punkt
-    - Wasser_Uferdeckwerk_Ufermauer_Lebendverbau:
+    - Wasser_Uferdeckwerk_Ufermauer:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_qml_001
-        tablename: wasser_uferdeckwerk_ufermauer_lebendverbau
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_qml_001
+        tablename: wasser_uferdeckwerk_ufermauer
     - Wasser_Sperre_Schwelle:
         checked: true
         expanded: true
@@ -250,12 +250,12 @@ layertree:
         featurecount: true
         qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_entlastungsstollen_kanal_art_qml_001
         tablename: wasser_entlastungsstollen_kanal_art
-    - Wasser_Uferdeckwerk_Ufermauer_Lebendverbau_Art:
+    - Wasser_Uferdeckwerk_Ufermauer_Art:
         checked: true
         expanded: true
         featurecount: true
-        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_art_qml_001
-        tablename: wasser_uferdeckwerk_ufermauer_lebendverbau_art
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_art_qml_001
+        tablename: wasser_uferdeckwerk_ufermauer_art
     - Baumaterial_Typ:
         checked: true
         expanded: true

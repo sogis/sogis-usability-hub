@@ -143,14 +143,14 @@
         </config>
       </editWidget>
     </field>
-    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" configurationFlags="NoFlag">
+    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer" configurationFlags="NoFlag">
       <editWidget type="RelationReference">
         <config>
           <Option type="Map">
             <Option name="AllowAddFeatures" value="true" type="bool"/>
             <Option name="AllowNULL" value="true" type="bool"/>
             <Option name="OrderByValue" value="true" type="bool"/>
-            <Option name="Relation" value="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau_wasser_uferdeckwerk_ufermauer_lebendverbau_T_Id" type="QString"/>
+            <Option name="Relation" value="schutzbaute_dokument_schutzbaute_wasser_uferdeckwerk_ufermauer_wasser_uferdeckwerk_ufermauer_T_Id" type="QString"/>
             <Option name="ShowForm" value="false" type="bool"/>
             <Option name="ShowOpenFormButton" value="false" type="bool"/>
           </Option>
@@ -491,7 +491,7 @@
     <alias name="Schutzbaute" index="6" field="schutzbaute_sturz_andere_werksart_linie"/>
     <alias name="Schutzbaute" index="7" field="schutzbaute_sturz_abdeckung_verankerung"/>
     <alias name="Schutzbaute" index="8" field="schutzbaute_wasser_mauer"/>
-    <alias name="Schutzbaute" index="9" field="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau"/>
+    <alias name="Schutzbaute" index="9" field="schutzbaute_wasser_uferdeckwerk_ufermauer"/>
     <alias name="Schutzbaute" index="10" field="schutzbaute_wasser_andere_werksart_linie"/>
     <alias name="Schutzbaute" index="11" field="schutzbaute_wasser_buhne"/>
     <alias name="Schutzbaute" index="12" field="schutzbaute_wasser_sperre_schwelle"/>
@@ -526,7 +526,7 @@
     <policy policy="Duplicate" field="schutzbaute_sturz_andere_werksart_linie"/>
     <policy policy="Duplicate" field="schutzbaute_sturz_abdeckung_verankerung"/>
     <policy policy="Duplicate" field="schutzbaute_wasser_mauer"/>
-    <policy policy="Duplicate" field="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau"/>
+    <policy policy="Duplicate" field="schutzbaute_wasser_uferdeckwerk_ufermauer"/>
     <policy policy="Duplicate" field="schutzbaute_wasser_andere_werksart_linie"/>
     <policy policy="Duplicate" field="schutzbaute_wasser_buhne"/>
     <policy policy="Duplicate" field="schutzbaute_wasser_sperre_schwelle"/>
@@ -561,7 +561,7 @@
     <default applyOnUpdate="0" field="schutzbaute_sturz_andere_werksart_linie" expression=""/>
     <default applyOnUpdate="0" field="schutzbaute_sturz_abdeckung_verankerung" expression=""/>
     <default applyOnUpdate="0" field="schutzbaute_wasser_mauer" expression=""/>
-    <default applyOnUpdate="0" field="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" expression=""/>
+    <default applyOnUpdate="0" field="schutzbaute_wasser_uferdeckwerk_ufermauer" expression=""/>
     <default applyOnUpdate="0" field="schutzbaute_wasser_andere_werksart_linie" expression=""/>
     <default applyOnUpdate="0" field="schutzbaute_wasser_buhne" expression=""/>
     <default applyOnUpdate="0" field="schutzbaute_wasser_sperre_schwelle" expression=""/>
@@ -596,7 +596,7 @@
     <constraint constraints="0" field="schutzbaute_sturz_andere_werksart_linie" unique_strength="0" notnull_strength="0" exp_strength="0"/>
     <constraint constraints="0" field="schutzbaute_sturz_abdeckung_verankerung" unique_strength="0" notnull_strength="0" exp_strength="0"/>
     <constraint constraints="0" field="schutzbaute_wasser_mauer" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" field="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" field="schutzbaute_wasser_uferdeckwerk_ufermauer" unique_strength="0" notnull_strength="0" exp_strength="0"/>
     <constraint constraints="0" field="schutzbaute_wasser_andere_werksart_linie" unique_strength="0" notnull_strength="0" exp_strength="0"/>
     <constraint constraints="0" field="schutzbaute_wasser_buhne" unique_strength="0" notnull_strength="0" exp_strength="0"/>
     <constraint constraints="0" field="schutzbaute_wasser_sperre_schwelle" unique_strength="0" notnull_strength="0" exp_strength="0"/>
@@ -631,7 +631,7 @@
     <constraint field="schutzbaute_sturz_andere_werksart_linie" desc="" exp=""/>
     <constraint field="schutzbaute_sturz_abdeckung_verankerung" desc="" exp=""/>
     <constraint field="schutzbaute_wasser_mauer" desc="" exp=""/>
-    <constraint field="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" desc="" exp=""/>
+    <constraint field="schutzbaute_wasser_uferdeckwerk_ufermauer" desc="" exp=""/>
     <constraint field="schutzbaute_wasser_andere_werksart_linie" desc="" exp=""/>
     <constraint field="schutzbaute_wasser_buhne" desc="" exp=""/>
     <constraint field="schutzbaute_wasser_sperre_schwelle" desc="" exp=""/>
@@ -722,7 +722,7 @@ def my_form_open(dialog, layer, feature):
         <labelFont style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
       </labelStyle>
     </attributeEditorField>
-    <attributeEditorField name="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" horizontalStretch="0" index="9" verticalStretch="0" showLabel="1">
+    <attributeEditorField name="schutzbaute_wasser_uferdeckwerk_ufermauer" horizontalStretch="0" index="9" verticalStretch="0" showLabel="1">
       <labelStyle overrideLabelFont="0" labelColor="0,0,0,255" overrideLabelColor="0">
         <labelFont style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0" bold="0" italic="0" underline="0" strikethrough="0"/>
       </labelStyle>
@@ -876,7 +876,7 @@ def my_form_open(dialog, layer, feature):
     <field name="schutzbaute_wasser_rampe_sohlensicherung" editable="1"/>
     <field name="schutzbaute_wasser_rueckhaltebauwerk" editable="1"/>
     <field name="schutzbaute_wasser_sperre_schwelle" editable="1"/>
-    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" editable="1"/>
+    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer" editable="1"/>
   </editable>
   <labelOnTop>
     <field labelOnTop="0" name="T_Id"/>
@@ -911,7 +911,7 @@ def my_form_open(dialog, layer, feature):
     <field labelOnTop="0" name="schutzbaute_wasser_rampe_sohlensicherung"/>
     <field labelOnTop="0" name="schutzbaute_wasser_rueckhaltebauwerk"/>
     <field labelOnTop="0" name="schutzbaute_wasser_sperre_schwelle"/>
-    <field labelOnTop="0" name="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau"/>
+    <field labelOnTop="0" name="schutzbaute_wasser_uferdeckwerk_ufermauer"/>
   </labelOnTop>
   <reuseLastValue>
     <field name="T_Id" reuseLastValue="0"/>
@@ -946,7 +946,7 @@ def my_form_open(dialog, layer, feature):
     <field name="schutzbaute_wasser_rampe_sohlensicherung" reuseLastValue="0"/>
     <field name="schutzbaute_wasser_rueckhaltebauwerk" reuseLastValue="0"/>
     <field name="schutzbaute_wasser_sperre_schwelle" reuseLastValue="0"/>
-    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer_lebendverbau" reuseLastValue="0"/>
+    <field name="schutzbaute_wasser_uferdeckwerk_ufermauer" reuseLastValue="0"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>

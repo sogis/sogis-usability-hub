@@ -125,7 +125,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="dd1f1d34-ce26-4302-bd2e-ad59920386ca">
-            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_qml_001</id>
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_qml_001</id>
             <version>2024-02-18</version>
             <publishingDate>2024-02-18</publishingDate>
             <owner>mailto:bjsvwweb</owner>
@@ -142,7 +142,7 @@
                <DatasetIdx16.MultilingualMText>
                   <LocalisedText>
                      <DatasetIdx16.LocalisedMText>
-                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau', '.qml')</Text>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer', '.qml')</Text>
                      </DatasetIdx16.LocalisedMText>
                   </LocalisedText>
                </DatasetIdx16.MultilingualMText>
@@ -157,7 +157,7 @@
                   <fileFormat>text/plain</fileFormat>
                   <file>
                      <DatasetIdx16.File>
-                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau.qml</path>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer.qml</path>
                      </DatasetIdx16.File>
                   </file>
                </DatasetIdx16.DataFile>
@@ -1490,7 +1490,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="3a8eb5c6-3850-4bae-8960-5ba4176bb05a">
-            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_art_qml_001</id>
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_art_qml_001</id>
             <version>2024-02-18</version>
             <publishingDate>2024-02-18</publishingDate>
             <owner>mailto:bjsvwweb</owner>
@@ -1507,7 +1507,7 @@
                <DatasetIdx16.MultilingualMText>
                   <LocalisedText>
                      <DatasetIdx16.LocalisedMText>
-                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_art', '.qml')</Text>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_art', '.qml')</Text>
                      </DatasetIdx16.LocalisedMText>
                   </LocalisedText>
                </DatasetIdx16.MultilingualMText>
@@ -1522,7 +1522,7 @@
                   <fileFormat>text/plain</fileFormat>
                   <file>
                      <DatasetIdx16.File>
-                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_lebendverbau_art.qml</path>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_uferdeckwerk_ufermauer_art.qml</path>
                      </DatasetIdx16.File>
                   </file>
                </DatasetIdx16.DataFile>
