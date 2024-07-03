@@ -274,6 +274,12 @@ layertree:
         featurecount: true
         qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_entlastungsstollen_kanal_art_qml_001
         tablename: wasser_entlastungsstollen_kanal_art
+    - Wasser_Hochwasser_Geschiebe_Rueckhaltebauwerk_Art:
+        checked: true
+        expanded: true
+        featurecount: true
+        qmlstylefile: ilidata:layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk_art_qml_001
+        tablename: wasser_hochwasser_geschiebe_rueckhaltebauwerk_art
     - Wasser_Rampe_Sohlensicherung_Art:
         checked: true
         expanded: true
