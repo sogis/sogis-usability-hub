@@ -398,7 +398,7 @@ def my_form_open(dialog, layer, feature):
       <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
         <labelFont bold="0" underline="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" italic="0" strikethrough="0"/>
       </labelStyle>
-      <attributeEditorRelation forceSuppressFormPopup="0" label="" name="schutzbaute_dokument_dokument_dokument_T_Id" relationWidgetTypeId="linking_relation_editor" showLabel="1" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id">
+      <attributeEditorRelation forceSuppressFormPopup="0" label="" name="schutzbaute_dokument_dokument_dokument_T_Id" relationWidgetTypeId="linking_relation_editor" showLabel="1" nmRelationId="schutzbaute_dokument_schutzbaute_wasser_schwemmholz_eis_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id" relation="schutzbaute_dokument_dokument_dokument_T_Id">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255">
           <labelFont bold="0" underline="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" italic="0" strikethrough="0"/>
         </labelStyle>
