@@ -203,7 +203,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="953d3142-cbc7-4da0-bb49-19a306eda6c7">
-            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk_qml_001</id>
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk_qml_001</id>
             <version>2024-02-18</version>
             <publishingDate>2024-02-18</publishingDate>
             <owner>mailto:bjsvwweb</owner>
@@ -220,7 +220,7 @@
                <DatasetIdx16.MultilingualMText>
                   <LocalisedText>
                      <DatasetIdx16.LocalisedMText>
-                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk', '.qml')</Text>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk', '.qml')</Text>
                      </DatasetIdx16.LocalisedMText>
                   </LocalisedText>
                </DatasetIdx16.MultilingualMText>
@@ -235,7 +235,46 @@
                   <fileFormat>text/plain</fileFormat>
                   <file>
                      <DatasetIdx16.File>
-                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk.qml</path>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk.qml</path>
+                     </DatasetIdx16.File>
+                  </file>
+               </DatasetIdx16.DataFile>
+            </files>
+         </DatasetIdx16.DataIndex.DatasetMetadata>
+         <DatasetIdx16.DataIndex.DatasetMetadata TID="d06f2d14-0b8d-4df0-8297-ca4a1a9034d1">
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk_qml_001</id>
+            <version>2024-07-03</version>
+            <publishingDate>2024-07-03</publishingDate>
+            <owner>mailto:bjsvwweb</owner>
+            <title>
+               <DatasetIdx16.MultilingualText>
+                  <LocalisedText>
+                     <DatasetIdx16.LocalisedText>
+                        <Text>so_afu_schutzbauten_20231212_ohne_constraints</Text>
+                     </DatasetIdx16.LocalisedText>
+                  </LocalisedText>
+               </DatasetIdx16.MultilingualText>
+            </title>
+            <shortDescription>
+               <DatasetIdx16.MultilingualMText>
+                  <LocalisedText>
+                     <DatasetIdx16.LocalisedMText>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk', '.qml')</Text>
+                     </DatasetIdx16.LocalisedMText>
+                  </LocalisedText>
+               </DatasetIdx16.MultilingualMText>
+            </shortDescription>
+            <categories>
+               <DatasetIdx16.Code_>
+                  <value>http://codes.interlis.ch/type/layerstyle</value>
+               </DatasetIdx16.Code_>
+            </categories>
+            <files>
+               <DatasetIdx16.DataFile>
+                  <fileFormat>text/plain</fileFormat>
+                  <file>
+                     <DatasetIdx16.File>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk.qml</path>
                      </DatasetIdx16.File>
                   </file>
                </DatasetIdx16.DataFile>
@@ -1295,7 +1334,7 @@
             </files>
          </DatasetIdx16.DataIndex.DatasetMetadata>
          <DatasetIdx16.DataIndex.DatasetMetadata TID="7fdb617b-4400-4138-ad8d-03b1fe78245b">
-            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk_art_qml_001</id>
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk_art_qml_001</id>
             <version>2024-02-18</version>
             <publishingDate>2024-02-18</publishingDate>
             <owner>mailto:bjsvwweb</owner>
@@ -1312,7 +1351,7 @@
                <DatasetIdx16.MultilingualMText>
                   <LocalisedText>
                      <DatasetIdx16.LocalisedMText>
-                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk_art', '.qml')</Text>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk_art', '.qml')</Text>
                      </DatasetIdx16.LocalisedMText>
                   </LocalisedText>
                </DatasetIdx16.MultilingualMText>
@@ -1327,7 +1366,46 @@
                   <fileFormat>text/plain</fileFormat>
                   <file>
                      <DatasetIdx16.File>
-                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_rueckhaltebauwerk_art.qml</path>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_schwemmholz_eis_rueckhaltebauwerk_art.qml</path>
+                     </DatasetIdx16.File>
+                  </file>
+               </DatasetIdx16.DataFile>
+            </files>
+         </DatasetIdx16.DataIndex.DatasetMetadata>
+         <DatasetIdx16.DataIndex.DatasetMetadata TID="72a64308-c4db-4881-880e-3059a8d24873">
+            <id>layerstyle_so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk_art_qml_001</id>
+            <version>2024-07-03</version>
+            <publishingDate>2024-07-03</publishingDate>
+            <owner>mailto:bjsvwweb</owner>
+            <title>
+               <DatasetIdx16.MultilingualText>
+                  <LocalisedText>
+                     <DatasetIdx16.LocalisedText>
+                        <Text>so_afu_schutzbauten_20231212_ohne_constraints</Text>
+                     </DatasetIdx16.LocalisedText>
+                  </LocalisedText>
+               </DatasetIdx16.MultilingualText>
+            </title>
+            <shortDescription>
+               <DatasetIdx16.MultilingualMText>
+                  <LocalisedText>
+                     <DatasetIdx16.LocalisedMText>
+                        <Text>QGIS layerstyle file for so_afu_schutzbauten_20231212_ohne_constraints - ('so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk_art', '.qml')</Text>
+                     </DatasetIdx16.LocalisedMText>
+                  </LocalisedText>
+               </DatasetIdx16.MultilingualMText>
+            </shortDescription>
+            <categories>
+               <DatasetIdx16.Code_>
+                  <value>http://codes.interlis.ch/type/layerstyle</value>
+               </DatasetIdx16.Code_>
+            </categories>
+            <files>
+               <DatasetIdx16.DataFile>
+                  <fileFormat>text/plain</fileFormat>
+                  <file>
+                     <DatasetIdx16.File>
+                        <path>layerstyle/so_afu_schutzbauten_20231212_ohne_constraints_wasser_hochwasser_geschiebe_rueckhaltebauwerk_art.qml</path>
                      </DatasetIdx16.File>
                   </file>
                </DatasetIdx16.DataFile>

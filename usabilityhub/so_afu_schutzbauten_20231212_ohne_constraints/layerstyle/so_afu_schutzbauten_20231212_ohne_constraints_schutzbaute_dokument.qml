@@ -206,7 +206,7 @@
             <Option name="AllowAddFeatures" value="true" type="bool"/>
             <Option name="AllowNULL" value="true" type="bool"/>
             <Option name="OrderByValue" value="true" type="bool"/>
-            <Option name="Relation" value="schutzbaute_dokument_schutzbaute_wasser_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id" type="QString"/>
+            <Option name="Relation" value="schutzbaute_dokument_schutzbaute_wasser_schwemmholz_eis_rueckhaltebauwerk_wasser_rueckhaltebauwerk_T_Id" type="QString"/>
             <Option name="ShowForm" value="false" type="bool"/>
             <Option name="ShowOpenFormButton" value="false" type="bool"/>
           </Option>

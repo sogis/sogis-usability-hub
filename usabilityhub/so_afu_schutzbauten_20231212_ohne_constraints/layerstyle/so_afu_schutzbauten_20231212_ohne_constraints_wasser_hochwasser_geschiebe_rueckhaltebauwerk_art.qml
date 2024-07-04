@@ -22,7 +22,7 @@
       </Option>
     </Option>
   </customproperties>
-  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
@@ -71,36 +71,36 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" name="" field="itfCode"/>
-    <alias index="1" name="" field="iliCode"/>
-    <alias index="2" name="" field="seq"/>
-    <alias index="3" name="" field="inactive"/>
-    <alias index="4" name="" field="dispName"/>
-    <alias index="5" name="" field="description"/>
+    <alias index="0" field="itfCode" name=""/>
+    <alias index="1" field="iliCode" name=""/>
+    <alias index="2" field="seq" name=""/>
+    <alias index="3" field="inactive" name=""/>
+    <alias index="4" field="dispName" name=""/>
+    <alias index="5" field="description" name=""/>
   </aliases>
   <defaults>
-    <default expression="" applyOnUpdate="0" field="itfCode"/>
-    <default expression="" applyOnUpdate="0" field="iliCode"/>
-    <default expression="" applyOnUpdate="0" field="seq"/>
-    <default expression="" applyOnUpdate="0" field="inactive"/>
-    <default expression="" applyOnUpdate="0" field="dispName"/>
-    <default expression="" applyOnUpdate="0" field="description"/>
+    <default field="itfCode" expression="" applyOnUpdate="0"/>
+    <default field="iliCode" expression="" applyOnUpdate="0"/>
+    <default field="seq" expression="" applyOnUpdate="0"/>
+    <default field="inactive" expression="" applyOnUpdate="0"/>
+    <default field="dispName" expression="" applyOnUpdate="0"/>
+    <default field="description" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint exp_strength="0" unique_strength="1" constraints="3" notnull_strength="1" field="itfCode"/>
-    <constraint exp_strength="0" unique_strength="0" constraints="1" notnull_strength="1" field="iliCode"/>
-    <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="seq"/>
-    <constraint exp_strength="0" unique_strength="0" constraints="1" notnull_strength="1" field="inactive"/>
-    <constraint exp_strength="0" unique_strength="0" constraints="1" notnull_strength="1" field="dispName"/>
-    <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="description"/>
+    <constraint notnull_strength="1" field="itfCode" constraints="3" exp_strength="0" unique_strength="1"/>
+    <constraint notnull_strength="1" field="iliCode" constraints="1" exp_strength="0" unique_strength="0"/>
+    <constraint notnull_strength="0" field="seq" constraints="0" exp_strength="0" unique_strength="0"/>
+    <constraint notnull_strength="1" field="inactive" constraints="1" exp_strength="0" unique_strength="0"/>
+    <constraint notnull_strength="1" field="dispName" constraints="1" exp_strength="0" unique_strength="0"/>
+    <constraint notnull_strength="0" field="description" constraints="0" exp_strength="0" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" exp="" field="itfCode"/>
-    <constraint desc="" exp="" field="iliCode"/>
-    <constraint desc="" exp="" field="seq"/>
-    <constraint desc="" exp="" field="inactive"/>
-    <constraint desc="" exp="" field="dispName"/>
-    <constraint desc="" exp="" field="description"/>
+    <constraint exp="" field="itfCode" desc=""/>
+    <constraint exp="" field="iliCode" desc=""/>
+    <constraint exp="" field="seq" desc=""/>
+    <constraint exp="" field="inactive" desc=""/>
+    <constraint exp="" field="dispName" desc=""/>
+    <constraint exp="" field="description" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <editform tolerant="1"></editform>
@@ -111,41 +111,41 @@
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle overrideLabelFont="0" labelColor="" overrideLabelColor="0">
-      <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+    <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+      <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
     </labelStyle>
-    <attributeEditorContainer horizontalStretch="0" columnCount="2" collapsedExpressionEnabled="0" type="Tab" collapsed="0" collapsedExpression="" visibilityExpressionEnabled="0" name="General" showLabel="1" visibilityExpression="" groupBox="0" verticalStretch="0">
-      <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-        <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+    <attributeEditorContainer horizontalStretch="0" collapsed="0" collapsedExpression="" visibilityExpressionEnabled="0" showLabel="1" collapsedExpressionEnabled="0" groupBox="0" verticalStretch="0" columnCount="2" visibilityExpression="" type="Tab" name="General">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+        <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
       </labelStyle>
-      <attributeEditorField horizontalStretch="0" name="itfCode" showLabel="1" index="0" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="0" showLabel="1" verticalStretch="0" name="itfCode">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="iliCode" showLabel="1" index="1" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="1" showLabel="1" verticalStretch="0" name="iliCode">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="seq" showLabel="1" index="2" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="2" showLabel="1" verticalStretch="0" name="seq">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="inactive" showLabel="1" index="3" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="3" showLabel="1" verticalStretch="0" name="inactive">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="dispName" showLabel="1" index="4" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="4" showLabel="1" verticalStretch="0" name="dispName">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="description" showLabel="1" index="5" verticalStretch="0">
-        <labelStyle overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1" overrideLabelColor="0">
-          <labelFont bold="0" underline="0" style="" strikethrough="0" italic="0" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attributeEditorField horizontalStretch="0" index="5" showLabel="1" verticalStretch="0" name="description">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="0,0,0,255,rgb:0,0,0,1">
+          <labelFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="" bold="0" italic="0" strikethrough="0" underline="0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
